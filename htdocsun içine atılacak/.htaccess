@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^haber/([0-9]+)$ haber.php?id=$1 [L]
